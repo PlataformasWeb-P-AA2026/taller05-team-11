@@ -1,5 +1,5 @@
 # Script del formato json:
-## Usamos las librerias pandas, BeautifulSoup y PyPDF2 para lograr convertir los formatos de csv, html y pdf a un json en el cual los juntamos todos en uno solo para generar el json
+## Usamos las librerias pandas, BeautifulSoup y PyPDF2 para lograr convertir los formatos de csv, html y pdf a un json en el cual los juntamos todos en uno solo para generar el json, se ejecuta el codigo y se crea el archivo json con el formato deseado.
 
 <img width="361" height="134" alt="image" src="https://github.com/user-attachments/assets/28553164-d5ef-46a3-a563-ee2e36c3dc8e" />
 
@@ -15,7 +15,7 @@
 <img width="1085" height="575" alt="image" src="https://github.com/user-attachments/assets/3b5c4678-b4b0-45d2-8cab-bb3cf64493c7" />
 
 # Evidencia de Carga a CouchDB
-## Creamos el archivo cargar_couchdb.py para poder importar el json creado usando la funcion bulk_docs
+## Creamos el archivo cargar_couchdb.py para poder importar el json creado usando la funcion bulk_docs y a su vez ejecutamos asegurandonos que tengamos la base de datos creada en couchdb con los puertos correctos.
 
 <img width="1124" height="972" alt="image" src="https://github.com/user-attachments/assets/489460f4-f07e-46b5-921b-b9dab3244582" />
 
