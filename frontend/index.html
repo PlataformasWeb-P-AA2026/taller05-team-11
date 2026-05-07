@@ -1,21 +1,56 @@
 <!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>vite-jquery-datatable</title>
-  </head>
-  <body>
-    <select id="vista">
-      <option value="por_club">Por club</option>
-      <option value="por_partidos">Por partidos</option>
-      <option value="por_goles">Por goles</option>
-    </select>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <input id="filtro" type="text" placeholder="Filtrar por criterio">
+  <title>Jugadores Mundial 2026 | Team 11</title>
+</head>
 
+<body>
+
+  <!-- ENCABEZADO -->
+  <header class="encabezado">
+    <h1> Sistema de Jugadores Mundial 2026</h1>
+    <p>Consulta de datos almacenados en CouchDB</p>
+  </header>
+
+  <!-- CONTROLES -->
+  <section class="panel-controles">
+
+    <div class="grupo-control">
+      <label for="vista">Consultar por:</label>
+      <select id="vista">
+        <option value="por_club">Por Club</option>
+        <option value="por_partidos">Por Partidos</option>
+        <option value="por_goles">Por Goles</option>
+      </select>
+    </div>
+
+    <div class="grupo-control">
+      <label for="filtro">Filtro:</label>
+      <input
+        id="filtro"
+        type="text"
+        placeholder="Ingrese club, goles o partidos"
+      />
+    </div>
+
+  </section>
+
+  <!-- TABLA -->
+  <main class="contenedor-tabla">
     <table id="tabla-posts"></table>
-    <script type="module" src="/src/main.js"></script>
-  </body>
+  </main>
+
+  <!-- PIE DE PAGINA -->
+  <footer class="footer">
+    <p>Desarrollado por Team 11</p>
+    <p>Universidad Técnica Particular de Loja - 2026</p>
+  </footer>
+
+  <script type="module" src="/src/main.js"></script>
+
+</body>
 </html>
