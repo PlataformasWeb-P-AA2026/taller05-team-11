@@ -1,7 +1,8 @@
 import requests
 import json
+from config import url_base
 
-URL = "http://admin:admin@localhost:5985/jugadores/_bulk_docs"
+URL = url_base
 
 with open("mundial_2026.json", "r", encoding="utf-8") as f:
     data = json.load(f)

@@ -1,0 +1,1 @@
+url_base = "http://localhost:5985/jugadores/_bulk_docs"
