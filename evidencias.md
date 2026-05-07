@@ -1,5 +1,8 @@
 # Script del formato json:
-## Usamos las librerias pandas, BeautifulSoup y PyPDF2 para lograr convertir los formatos de csv, html y pdf a un json en el cual los juntamos todos en uno solo para generar el json, se ejecuta el codigo y se crea el archivo json con el formato deseado.
+## Antes de arrancar
+Primeramente vamos a instalar el requirements.txt para poder instalar las dependecias necesarias para este proyecto.
+### pip install requirements
+## Usamos las librerias pandas, BeautifulSoup y PyPDF2 para lograr convertir los formatos de csv, html y pdf a un json en el cual los juntamos todos en uno solo para generar el json, se ejecuta el codigo etl.py y se crea el archivo json con el formato deseado.
 
 <img width="361" height="134" alt="image" src="https://github.com/user-attachments/assets/28553164-d5ef-46a3-a563-ee2e36c3dc8e" />
 
@@ -8,16 +11,17 @@
 <img width="718" height="388" alt="image" src="https://github.com/user-attachments/assets/d18c372d-4c2c-4d97-8f1e-49246ee0fefc" />
 
 # Archivo mundia_2026.json
-## Guardamos el archivo creado en la carpeta de frontend para el uso de este y a su vez se le dio un formato para poder subirlo a couchDB
+## Guardamos el archivo creado en la carpeta formato-json para el uso de este y a su vez se le dio un formato para poder subirlo a couchDB
 
 <img width="358" height="375" alt="image" src="https://github.com/user-attachments/assets/91b8bf37-8501-433a-b821-acc393d415b5" />
 
 <img width="1085" height="575" alt="image" src="https://github.com/user-attachments/assets/3b5c4678-b4b0-45d2-8cab-bb3cf64493c7" />
 
 # Evidencia de Carga a CouchDB
-## Creamos el archivo cargar_couchdb.py para poder importar el json creado usando la funcion bulk_docs y a su vez ejecutamos asegurandonos que tengamos la base de datos creada en couchdb con los puertos correctos.
+## Ejecutamos el archivo cargar_couchdb.py para poder importar el json creado usando la funcion bulk_docs y a su vez ejecutamos asegurandonos que tengamos la base de datos creada en couchdb con los puertos correctos.
 
-<img width="1124" height="972" alt="image" src="https://github.com/user-attachments/assets/489460f4-f07e-46b5-921b-b9dab3244582" />
+<img width="1093" height="579" alt="image" src="https://github.com/user-attachments/assets/0eae4fad-eee2-4b3d-bfca-87cd3171fc6d" />
+
 
 ## Creamos el documento en couchdb para poder crear las vistas requeridas del json
 
