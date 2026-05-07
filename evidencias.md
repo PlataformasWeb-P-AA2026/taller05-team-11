@@ -19,6 +19,11 @@
 
 <img width="1124" height="972" alt="image" src="https://github.com/user-attachments/assets/489460f4-f07e-46b5-921b-b9dab3244582" />
 
+## Creamos el documento en couchdb para poder crear las vistas requeridas del json
+
+<img width="1872" height="904" alt="image" src="https://github.com/user-attachments/assets/f97bc4e4-b7a7-4603-9e02-186eabc3747d" />
+
+
 # Capturas del Fronted funcionando 
 
 ## Finalmente probamos el frontend usando vite para generar los resultados esperados del json del mundial 2026
